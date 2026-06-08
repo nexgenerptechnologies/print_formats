@@ -1,4 +1,4 @@
-app_name = "pro_print_formats"
+app_name = "print_formats"
 app_title = "Professional Print Formats"
 app_publisher = "Marketplace Publisher"
 app_description = "Professional Print Formats for ERPNext"
@@ -27,18 +27,18 @@ fixtures = [
 
 doc_events = {
     "Sales Invoice": {
-        "before_print": "pro_print_formats.pro_print_formats.overrides.pdf.set_custom_pdf_name"
+        "before_print": "print_formats.print_formats.overrides.pdf.set_custom_pdf_name"
     },
     "Purchase Order": {
-        "before_print": "pro_print_formats.pro_print_formats.overrides.pdf.set_custom_pdf_name"
+        "before_print": "print_formats.print_formats.overrides.pdf.set_custom_pdf_name"
     },
     "Delivery Note": {
-        "before_print": "pro_print_formats.pro_print_formats.overrides.pdf.set_custom_pdf_name"
+        "before_print": "print_formats.print_formats.overrides.pdf.set_custom_pdf_name"
     },
     "Sales Order": {
-        "before_print": "pro_print_formats.pro_print_formats.overrides.pdf.set_custom_pdf_name"
+        "before_print": "print_formats.print_formats.overrides.pdf.set_custom_pdf_name"
     },
     "Stock Entry": {
-        "before_print": "pro_print_formats.pro_print_formats.overrides.pdf.set_custom_pdf_name"
+        "before_print": "print_formats.print_formats.overrides.pdf.set_custom_pdf_name"
     }
 }
